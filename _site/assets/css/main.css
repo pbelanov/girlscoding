@@ -1,21 +1,18 @@
 @font-face {
-  font-family: 'Fira Sans';
+  font-family: 'Rubik';
   font-style: normal;
   font-weight: 400;
-  src: local("Fira Sans"), local("FiraSans-Regular"), url(http://fonts.gstatic.com/s/firasans/v5/EjsrzDkQUQCDwsBtLpcVQZBw1xU1rKptJj_0jans920.woff2) format("woff2");
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000; }
+  src: local("Rubik"), local("Rubik-Regular"), url(https://fonts.gstatic.com/s/rubik/v2/g6xdMvR_AnBK0niI0vwvVaCWcynf_cDxXwCLxiixG1c.woff) format("woff"); }
 @font-face {
-  font-family: 'Fira Sans';
-  font-style: normal;
-  font-weight: 700;
-  src: local("Fira Sans Bold"), local("FiraSans-Bold"), url(http://fonts.gstatic.com/s/firasans/v5/DugPdSljmOTocZOR2CItOhampu5_7CjHW5spxoeN3Vs.woff2) format("woff2");
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000; }
-@font-face {
-  font-family: 'Fira Mono';
+  font-family: 'Open Sans';
   font-style: normal;
   font-weight: 400;
-  src: local("Fira Mono"), local("FiraMono"), url(http://fonts.gstatic.com/s/firamono/v3/SlRWfq1zeqXiYWAN-lnG-pBw1xU1rKptJj_0jans920.woff2) format("woff2");
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000; }
+  src: local("Open Sans"), local("OpenSans"), url(https://fonts.gstatic.com/s/opensans/v13/cJZKeOuBrn4kERxqtaUH3bO3LdcAZYWl9Si6vvxL-qU.woff) format("woff"); }
+@font-face {
+  font-family: 'Inconsolata';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Inconsolata"), url(https://fonts.gstatic.com/s/inconsolata/v14/BjAYBlHtW3CJxDcjzrnZCLrIa-7acMAeDBVuclsi6Gc.woff) format("woff"); }
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 html {
   font-family: sans-serif;
@@ -201,7 +198,7 @@ body {
   background-color: white;
   font-size: 14px;
   line-height: 1.6;
-  font-family: "Fira Sans", sans-serif;
+  font-family: "Rubik", sans-serif;
   color: #666;
   -webkit-font-smoothing: antialiased;
   -webkit-text-size-adjust: 100%; }
@@ -392,13 +389,15 @@ body {
       padding: 30px 0; }
     .page-home section:nth-child(even) {
       background-color: #ffe6e6; }
+    .page-home section:last-child {
+      background-color: #ddd;
+      padding: 30px 0; }
     .page-home section h1 {
       font-size: 72px;
       font-weight: 200;
       line-height: 1;
       margin: 10px;
-      letter-spacing: 10px;
-      text-transform: uppercase;
+      letter-spacing: 1px;
       color: #111;
       padding-bottom: 20px; }
     .page-home section h2 {
@@ -406,6 +405,11 @@ body {
       margin: 30px;
       font-size: 50px;
       font-weight: 200; }
+    .page-home section h3 {
+      font-size: 20px;
+      font-weight: 200;
+      color: #555;
+      margin: 10px; }
     .page-home section p {
       font-size: 20px;
       font-weight: 200;
