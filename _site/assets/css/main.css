@@ -384,35 +384,35 @@ body {
     padding: 20px 0;
     position: relative;
     background-color: #ddd; }
-    .page-home section:first-child {
-      background-color: #fff;
-      padding: 30px 0; }
     .page-home section:nth-child(even) {
       background-color: #ffe6e6; }
-    .page-home section:last-child {
-      background-color: #ddd;
-      padding: 30px 0; }
-    .page-home section h1 {
-      font-size: 72px;
-      font-weight: 200;
-      line-height: 1;
-      margin: 10px;
-      letter-spacing: 1px;
-      color: #111;
-      padding-bottom: 20px; }
     .page-home section h2 {
       color: #555;
       margin: 30px;
       font-size: 50px;
       font-weight: 200; }
-    .page-home section h3 {
-      font-size: 20px;
-      font-weight: 200;
-      color: #555;
-      margin: 10px; }
     .page-home section p {
       font-size: 20px;
       font-weight: 200;
       color: #555; }
+  .page-home header {
+    background-color: #ddd;
+    padding: 30px 0; }
+    .page-home header h1 {
+      font-size: 72px;
+      font-weight: 200;
+      line-height: 1;
+      margin: 10px;
+      letter-spacing: 5px;
+      color: #111;
+      padding-bottom: 20px; }
+  .page-home footer {
+    background-color: #ddd;
+    padding: 30px 0; }
+    .page-home footer h3 {
+      font-size: 20px;
+      font-weight: 200;
+      color: #555;
+      margin: 10px; }
   .page-home img {
     max-width: 100%; }
